@@ -1,0 +1,30 @@
+{
+  "title": "Schneid FBR15",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Schneid FBR15",
+        "description": "Verbinde dich mit deinem Schneid Connect Konto.",
+        "data": {
+          "username": "Benutzername (E-Mail)",
+          "password": "Passwort"
+        }
+      },
+      "select_device": {
+        "title": "Gerät auswählen",
+        "description": "Wähle das Schneid FBR15 Gerät aus, das du hinzufügen möchtest.",
+        "data": {
+          "device_id": "Gerät"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Ungültige Anmeldedaten. Bitte überprüfe Benutzername und Passwort.",
+      "cannot_connect": "Verbindung zum Server fehlgeschlagen.",
+      "unknown": "Ein unerwarteter Fehler ist aufgetreten."
+    },
+    "abort": {
+      "already_configured": "Dieses Gerät ist bereits konfiguriert."
+    }
+  }
+}
